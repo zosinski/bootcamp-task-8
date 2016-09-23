@@ -1,9 +1,9 @@
 {
 	"version": 3,
-	"file": "grunt-test.css",
+	"file": "style.css",
 	"sources": [
 		"../sass/grunt-test.sass"
 	],
-	"mappings": "",
+	"mappings": "AAEA,eAAe",
 	"names": []
 }
