@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "grunt-test.css",
+	"sources": [
+		"../sass/grunt-test.sass"
+	],
+	"mappings": "",
+	"names": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "kodilla-task-7",
+  "version": "1.0.0",
+  "description": "Learning GIT and Grunt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zosinski/kodilla-first.git"
+  },
+  "author": "Zbigniew Osiński",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zosinski/kodilla-first/issues"
+  },
+  "homepage": "https://github.com/zosinski/kodilla-first#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.1"
+  }
+}

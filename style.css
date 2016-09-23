@@ -1,0 +1,246 @@
+/* ----------- COLORS -------------*/
+/*
+	color: #2ba8db; light blue
+	color: #2f343b; navy blue
+	color: #ff6f69; pink 
+*/
+
+/* ----------- BASIC STYLES ------------*/
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	color:#2ba8db;
+}
+a:hover {
+	color:#2f343b;
+}
+a:focus {
+	outline:none;
+}
+h1, h2, h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #222;
+}
+
+h1 {
+	font-size:38px;
+}
+h2 {
+	font-size:32px;
+}
+h3 {
+	font-size:26px;
+}
+hr {
+	border-color:#8c8f92;
+}
+
+.inverse h1, h2, h3, p {
+	color: #0a87cf;
+}
+.inverse p {
+	color: #fff;
+}
+
+/* ----------- HEADER ------------*/
+
+
+.header-wrapper {
+	background-color: #2f343b;
+}
+
+/* ----------- HEADER TOP ------------*/
+
+/*div, .header-top div {
+	border: 1px solid yellow;
+}
+
+.header-top .row div {
+	border: 1px solid red;
+}*/
+
+.header-top h1 {
+	padding: 0;
+}
+
+.header-top .row {
+	height: 100%;
+}
+
+
+.header-top-callcenter a {
+	margin-top: 5px;
+	color: #fff;
+	font-size: 2rem;
+}
+.header-top a:focus,
+.header-top a:hover {
+	color: #2ba8db;
+	text-decoration: none;
+}
+
+.header-top p {
+	color: #2ba8db;
+}
+
+.header-top-callcenter {
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+}
+
+.header-top-callcenter div {
+	width: 220px;
+	text-align: left;
+	padding-top: 15px;
+}
+.header-top-callcenter p {
+	margin: 0;
+}
+.header-top-callcenter .fa-mobile {
+	color: #2ba8db;
+}
+
+.search {
+	padding: 15px 10%;
+}
+
+.header-top-cart {
+	padding: 20px 15px 20px 0;
+	text-align: right;
+}
+
+/* ----------- Cart ------------- */
+.cart-dropdown-inner {
+	padding: 10px 15px 15px;
+}
+
+.cart-table td:last-child {
+	color: red;
+	cursor: pointer;
+}
+
+
+/* ----------- MAIN NAVIGATION ------------*/
+
+.navbar-brand {
+	padding: 0 10px;
+}
+
+.navbar-brand img {
+	max-height: 100%;
+	height: auto;
+}
+
+/* --------- Login modal ----------- */
+.modal-footer a {
+	margin-left: 20px;
+}
+
+
+/* ----------- CAROUSEL ------------*/
+
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel .item {
+  max-height: 700px;
+  background-color: #ccc;
+}
+
+/* ----------- PRODUCT LIST ------------*/
+
+.product-list {
+	text-align: center;
+}
+
+.product {
+	display: inline-block;
+	max-width: 375px;
+	text-align: left;
+}
+
+.caption h3 {
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/*.caption h3:hover {
+	overflow: visible;
+}*/
+
+.rate {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin: 10px 0;
+	color: yellow;
+	font-size: 1.33333333em;
+    line-height: .75em;
+    height: 1.33333333em;
+}
+
+.label-new, .label-discount {
+	position: absolute;
+	top: 10px;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 3px;
+}
+.label-new {
+	left: 25px;
+	background-color: #2ba8db;
+}
+.label-discount {
+	right: 25px;
+	background-color: #ff6f69;
+}
+
+.price {
+	display: flex;
+	justify-content: flex-start;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.price-catalog {
+	flex: 1;
+	color: grey;
+}
+.price-catalog i {
+	text-decoration: line-through;
+}
+.price-discounted {
+	flex: 0.5;
+	color: red;
+}
+.price-regular {
+	flex: 1;
+}
+
+footer {
+	background-color: #2f343b;
+}
+footer .fa {
+	margin: 0 8px;
+	font-size: 1.2em;
+}
+.footer-bottom {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-top: 1px solid #2ba8db;
+}
+.copyrights, .payment-methods {
+	flex: 1;
+	white-space: nowrap;
+}
