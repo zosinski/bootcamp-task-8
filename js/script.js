@@ -10,8 +10,8 @@ function halfTree(treeHeight) {
 	var treeBranch = '';
 	console.log("half tree")
 	
-	for (treeLevel = 1 ; treeLevel <= treeHeight ; treeLevel++) {
-		for (branchLenght = 1 ; branchLenght <= treeLevel * 2 - 1 ; branchLenght++) {
+	for (var treeLevel = 1 ; treeLevel <= treeHeight ; treeLevel++) {
+		for (var branchLenght = 1 ; branchLenght < treeLevel * 2 ; branchLenght++) {
 			treeBranch += '*';
 		};
 		console.log(treeBranch);
@@ -30,7 +30,7 @@ function fullTree(treeHeight) {
 
 	console.log("full tree")
 
-	for (treeLevel = 1 ; treeLevel <= treeHeight ; treeLevel++) {
+	for (var treeLevel = 1 ; treeLevel <= treeHeight ; treeLevel++) {
 		
 		branchLenght = treeLevel * 4 - 2;
 		position = 1;
@@ -42,7 +42,7 @@ function fullTree(treeHeight) {
 		}
 
 		/* leafs */
-		while ( position <= (longestBranchLength - branchLenght ) / 2 + branchLenght - 1) {
+		while ( position < (longestBranchLength - branchLenght ) / 2 + branchLenght) {
 			treeBranch += '*';
 			position++
 		}
